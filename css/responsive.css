@@ -1,0 +1,93 @@
+
+
+@media screen and (min-width: 1824px) {
+}
+@media screen and (max-width: 1200px) {
+    .blockContainer {
+        max-width: unset;
+        min-width: unset;
+        margin: 0px;
+    }
+   .tabNav {
+       width: 100%;
+       bottom: 0px;
+       left: 0px;
+       height: 60px;
+       background: rgba(255,255,255,0.6);
+       -webkit-backdrop-filter: blur(15px);
+               backdrop-filter: blur(15px);
+       top : unset;
+   }
+   .tabNav .tabNav__page {
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: horizontal;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: row;
+               flex-direction: row;
+       -ms-flex-pack: distribute;
+           justify-content: space-around;
+       width: calc(100% - 30px);
+   }
+   .tabContent__page {
+       padding: 0px 15px 150px 15px;
+   }
+   .page__item .listProduct__product {
+       width: calc(100% / 2 - 20px);
+   }
+}
+@media screen and (orientation:landscape) and (width: 1024px) {
+   
+}
+@media screen and (max-width: 992px) {
+    
+}
+@media screen and (orientation:landscape) and (max-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+    .page__item .item__listProduct {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 0px;
+    }
+    .page__item .listProduct__product {
+        width: 100%;
+        margin: 0px 0px 25px 0px;
+    }
+    .page__item {
+        margin: 0px;
+    }
+    .tabContent__page {
+        padding: 50px 15px 150px 15px;
+    }
+    .blockLogo {
+        transform: scale(0.3);
+        -webkit-transform: scale(0.3);
+    }
+    .headerWeb.hdLeft {
+        right : 0px;
+        left: 0px;
+        margin: auto;
+    }
+    .titleProduct__text {
+        font-size: 16px;
+    }
+    .page__item .titleProduct__text {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 640px) {
+   
+}
+@media screen and (orientation:landscape) and (max-width: 568px) {
+    
+}   
+@media screen and (max-width: 479px) {
+   
+}   
+@media screen and (max-width: 374px) {
+   
+}
